@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B2C64241B0DACB70061F8CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C64231B0DACB70061F8CC /* main.m */; };
+		8B2C64271B0DACB70061F8CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C64261B0DACB70061F8CC /* AppDelegate.m */; };
+		8B2C642A1B0DACB70061F8CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C64291B0DACB70061F8CC /* ViewController.m */; };
+		8B2C642D1B0DACB70061F8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C642B1B0DACB70061F8CC /* Main.storyboard */; };
+		8B2C642F1B0DACB70061F8CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C642E1B0DACB70061F8CC /* Images.xcassets */; };
+		8B2C64321B0DACB70061F8CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C64301B0DACB70061F8CC /* LaunchScreen.xib */; };
+		8B2C643E1B0DACB70061F8CC /* AppleWatch_RemoteSoundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C643D1B0DACB70061F8CC /* AppleWatch_RemoteSoundsTests.m */; };
+		8B2C64511B0DAE5F0061F8CC /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C64501B0DAE5F0061F8CC /* InterfaceController.m */; };
+		8B2C64531B0DAE5F0061F8CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C64521B0DAE5F0061F8CC /* Images.xcassets */; };
+		8B2C64571B0DAE600061F8CC /* AppleWatch_RemoteSounds WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C64561B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit App.app */; };
+		8B2C645F1B0DAE600061F8CC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C645D1B0DAE600061F8CC /* Interface.storyboard */; };
+		8B2C64611B0DAE600061F8CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C64601B0DAE600061F8CC /* Images.xcassets */; };
+		8B2C64641B0DAE600061F8CC /* AppleWatch_RemoteSounds WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B2C644B1B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B2C646F1B0DB2C80061F8CC /* quack.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C646E1B0DB2C80061F8CC /* quack.caf */; };
+		8B2C64741B0DB31F0061F8CC /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C64711B0DB31F0061F8CC /* SoundManager.m */; };
+		8B2C64751B0DB31F0061F8CC /* SoundMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C64731B0DB31F0061F8CC /* SoundMethods.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B2C64381B0DACB70061F8CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2C64161B0DACB70061F8CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2C641D1B0DACB70061F8CC;
+			remoteInfo = AppleWatch_RemoteSounds;
+		};
+		8B2C64581B0DAE600061F8CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2C64161B0DACB70061F8CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2C64551B0DAE5F0061F8CC;
+			remoteInfo = "AppleWatch_RemoteSounds WatchKit App";
+		};
+		8B2C64621B0DAE600061F8CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2C64161B0DACB70061F8CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2C644A1B0DAE5F0061F8CC;
+			remoteInfo = "AppleWatch_RemoteSounds WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B2C646B1B0DAE600061F8CC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8B2C64641B0DAE600061F8CC /* AppleWatch_RemoteSounds WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B2C641E1B0DACB70061F8CC /* AppleWatch_RemoteSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatch_RemoteSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2C64221B0DACB70061F8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2C64231B0DACB70061F8CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B2C64251B0DACB70061F8CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B2C64261B0DACB70061F8CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B2C64281B0DACB70061F8CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B2C64291B0DACB70061F8CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B2C642C1B0DACB70061F8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B2C642E1B0DACB70061F8CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B2C64311B0DACB70061F8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B2C64371B0DACB70061F8CC /* AppleWatch_RemoteSoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleWatch_RemoteSoundsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2C643C1B0DACB70061F8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2C643D1B0DACB70061F8CC /* AppleWatch_RemoteSoundsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleWatch_RemoteSoundsTests.m; sourceTree = "<group>"; };
+		8B2C644B1B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatch_RemoteSounds WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2C644E1B0DAE5F0061F8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2C644F1B0DAE5F0061F8CC /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		8B2C64501B0DAE5F0061F8CC /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		8B2C64521B0DAE5F0061F8CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B2C64561B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatch_RemoteSounds WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2C645C1B0DAE600061F8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2C645E1B0DAE600061F8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8B2C64601B0DAE600061F8CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B2C646E1B0DB2C80061F8CC /* quack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = quack.caf; sourceTree = "<group>"; };
+		8B2C64701B0DB31F0061F8CC /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		8B2C64711B0DB31F0061F8CC /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		8B2C64721B0DB31F0061F8CC /* SoundMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundMethods.h; sourceTree = "<group>"; };
+		8B2C64731B0DB31F0061F8CC /* SoundMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundMethods.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B2C641B1B0DACB70061F8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2C64341B0DACB70061F8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2C64481B0DAE5F0061F8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B2C64151B0DACB70061F8CC = {
+			isa = PBXGroup;
+			children = (
+				8B2C64201B0DACB70061F8CC /* AppleWatch_RemoteSounds */,
+				8B2C643A1B0DACB70061F8CC /* AppleWatch_RemoteSoundsTests */,
+				8B2C644C1B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit Extension */,
+				8B2C645A1B0DAE600061F8CC /* AppleWatch_RemoteSounds WatchKit App */,
+				8B2C641F1B0DACB70061F8CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B2C641F1B0DACB70061F8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B2C641E1B0DACB70061F8CC /* AppleWatch_RemoteSounds.app */,
+				8B2C64371B0DACB70061F8CC /* AppleWatch_RemoteSoundsTests.xctest */,
+				8B2C644B1B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit Extension.appex */,
+				8B2C64561B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B2C64201B0DACB70061F8CC /* AppleWatch_RemoteSounds */ = {
+			isa = PBXGroup;
+			children = (
+				8B2C64251B0DACB70061F8CC /* AppDelegate.h */,
+				8B2C64261B0DACB70061F8CC /* AppDelegate.m */,
+				8B2C64281B0DACB70061F8CC /* ViewController.h */,
+				8B2C64291B0DACB70061F8CC /* ViewController.m */,
+				8B2C642B1B0DACB70061F8CC /* Main.storyboard */,
+				8B2C642E1B0DACB70061F8CC /* Images.xcassets */,
+				8B2C64301B0DACB70061F8CC /* LaunchScreen.xib */,
+				8B2C64761B0DB3720061F8CC /* Sound Class */,
+				8B2C64211B0DACB70061F8CC /* Supporting Files */,
+			);
+			path = AppleWatch_RemoteSounds;
+			sourceTree = "<group>";
+		};
+		8B2C64211B0DACB70061F8CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B2C646E1B0DB2C80061F8CC /* quack.caf */,
+				8B2C64221B0DACB70061F8CC /* Info.plist */,
+				8B2C64231B0DACB70061F8CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B2C643A1B0DACB70061F8CC /* AppleWatch_RemoteSoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B2C643D1B0DACB70061F8CC /* AppleWatch_RemoteSoundsTests.m */,
+				8B2C643B1B0DACB70061F8CC /* Supporting Files */,
+			);
+			path = AppleWatch_RemoteSoundsTests;
+			sourceTree = "<group>";
+		};
+		8B2C643B1B0DACB70061F8CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B2C643C1B0DACB70061F8CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B2C644C1B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8B2C644F1B0DAE5F0061F8CC /* InterfaceController.h */,
+				8B2C64501B0DAE5F0061F8CC /* InterfaceController.m */,
+				8B2C64521B0DAE5F0061F8CC /* Images.xcassets */,
+				8B2C644D1B0DAE5F0061F8CC /* Supporting Files */,
+			);
+			path = "AppleWatch_RemoteSounds WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8B2C644D1B0DAE5F0061F8CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B2C644E1B0DAE5F0061F8CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B2C645A1B0DAE600061F8CC /* AppleWatch_RemoteSounds WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8B2C645D1B0DAE600061F8CC /* Interface.storyboard */,
+				8B2C64601B0DAE600061F8CC /* Images.xcassets */,
+				8B2C645B1B0DAE600061F8CC /* Supporting Files */,
+			);
+			path = "AppleWatch_RemoteSounds WatchKit App";
+			sourceTree = "<group>";
+		};
+		8B2C645B1B0DAE600061F8CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B2C645C1B0DAE600061F8CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B2C64761B0DB3720061F8CC /* Sound Class */ = {
+			isa = PBXGroup;
+			children = (
+				8B2C64701B0DB31F0061F8CC /* SoundManager.h */,
+				8B2C64711B0DB31F0061F8CC /* SoundManager.m */,
+				8B2C64721B0DB31F0061F8CC /* SoundMethods.h */,
+				8B2C64731B0DB31F0061F8CC /* SoundMethods.m */,
+			);
+			name = "Sound Class";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B2C641D1B0DACB70061F8CC /* AppleWatch_RemoteSounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2C64411B0DACB70061F8CC /* Build configuration list for PBXNativeTarget "AppleWatch_RemoteSounds" */;
+			buildPhases = (
+				8B2C641A1B0DACB70061F8CC /* Sources */,
+				8B2C641B1B0DACB70061F8CC /* Frameworks */,
+				8B2C641C1B0DACB70061F8CC /* Resources */,
+				8B2C646B1B0DAE600061F8CC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2C64631B0DAE600061F8CC /* PBXTargetDependency */,
+			);
+			name = AppleWatch_RemoteSounds;
+			productName = AppleWatch_RemoteSounds;
+			productReference = 8B2C641E1B0DACB70061F8CC /* AppleWatch_RemoteSounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B2C64361B0DACB70061F8CC /* AppleWatch_RemoteSoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2C64441B0DACB70061F8CC /* Build configuration list for PBXNativeTarget "AppleWatch_RemoteSoundsTests" */;
+			buildPhases = (
+				8B2C64331B0DACB70061F8CC /* Sources */,
+				8B2C64341B0DACB70061F8CC /* Frameworks */,
+				8B2C64351B0DACB70061F8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2C64391B0DACB70061F8CC /* PBXTargetDependency */,
+			);
+			name = AppleWatch_RemoteSoundsTests;
+			productName = AppleWatch_RemoteSoundsTests;
+			productReference = 8B2C64371B0DACB70061F8CC /* AppleWatch_RemoteSoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B2C644A1B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2C64681B0DAE600061F8CC /* Build configuration list for PBXNativeTarget "AppleWatch_RemoteSounds WatchKit Extension" */;
+			buildPhases = (
+				8B2C64471B0DAE5F0061F8CC /* Sources */,
+				8B2C64481B0DAE5F0061F8CC /* Frameworks */,
+				8B2C64491B0DAE5F0061F8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2C64591B0DAE600061F8CC /* PBXTargetDependency */,
+			);
+			name = "AppleWatch_RemoteSounds WatchKit Extension";
+			productName = "AppleWatch_RemoteSounds WatchKit Extension";
+			productReference = 8B2C644B1B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		8B2C64551B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2C64651B0DAE600061F8CC /* Build configuration list for PBXNativeTarget "AppleWatch_RemoteSounds WatchKit App" */;
+			buildPhases = (
+				8B2C64541B0DAE5F0061F8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleWatch_RemoteSounds WatchKit App";
+			productName = "AppleWatch_RemoteSounds WatchKit App";
+			productReference = 8B2C64561B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B2C64161B0DACB70061F8CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = PerpetualApps;
+				TargetAttributes = {
+					8B2C641D1B0DACB70061F8CC = {
+						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					8B2C64361B0DACB70061F8CC = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8B2C641D1B0DACB70061F8CC;
+					};
+					8B2C644A1B0DAE5F0061F8CC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8B2C64551B0DAE5F0061F8CC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B2C64191B0DACB70061F8CC /* Build configuration list for PBXProject "AppleWatch_RemoteSounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B2C64151B0DACB70061F8CC;
+			productRefGroup = 8B2C641F1B0DACB70061F8CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B2C641D1B0DACB70061F8CC /* AppleWatch_RemoteSounds */,
+				8B2C64361B0DACB70061F8CC /* AppleWatch_RemoteSoundsTests */,
+				8B2C644A1B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit Extension */,
+				8B2C64551B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B2C641C1B0DACB70061F8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2C642D1B0DACB70061F8CC /* Main.storyboard in Resources */,
+				8B2C64321B0DACB70061F8CC /* LaunchScreen.xib in Resources */,
+				8B2C646F1B0DB2C80061F8CC /* quack.caf in Resources */,
+				8B2C642F1B0DACB70061F8CC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2C64351B0DACB70061F8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2C64491B0DAE5F0061F8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2C64531B0DAE5F0061F8CC /* Images.xcassets in Resources */,
+				8B2C64571B0DAE600061F8CC /* AppleWatch_RemoteSounds WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2C64541B0DAE5F0061F8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2C645F1B0DAE600061F8CC /* Interface.storyboard in Resources */,
+				8B2C64611B0DAE600061F8CC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B2C641A1B0DACB70061F8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2C642A1B0DACB70061F8CC /* ViewController.m in Sources */,
+				8B2C64741B0DB31F0061F8CC /* SoundManager.m in Sources */,
+				8B2C64271B0DACB70061F8CC /* AppDelegate.m in Sources */,
+				8B2C64241B0DACB70061F8CC /* main.m in Sources */,
+				8B2C64751B0DB31F0061F8CC /* SoundMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2C64331B0DACB70061F8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2C643E1B0DACB70061F8CC /* AppleWatch_RemoteSoundsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2C64471B0DAE5F0061F8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2C64511B0DAE5F0061F8CC /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B2C64391B0DACB70061F8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2C641D1B0DACB70061F8CC /* AppleWatch_RemoteSounds */;
+			targetProxy = 8B2C64381B0DACB70061F8CC /* PBXContainerItemProxy */;
+		};
+		8B2C64591B0DAE600061F8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2C64551B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit App */;
+			targetProxy = 8B2C64581B0DAE600061F8CC /* PBXContainerItemProxy */;
+		};
+		8B2C64631B0DAE600061F8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2C644A1B0DAE5F0061F8CC /* AppleWatch_RemoteSounds WatchKit Extension */;
+			targetProxy = 8B2C64621B0DAE600061F8CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B2C642B1B0DACB70061F8CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2C642C1B0DACB70061F8CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B2C64301B0DACB70061F8CC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2C64311B0DACB70061F8CC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		8B2C645D1B0DAE600061F8CC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2C645E1B0DAE600061F8CC /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B2C643F1B0DACB70061F8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B2C64401B0DACB70061F8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B2C64421B0DACB70061F8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppleWatch_RemoteSounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B2C64431B0DACB70061F8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppleWatch_RemoteSounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B2C64451B0DACB70061F8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppleWatch_RemoteSoundsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleWatch_RemoteSounds.app/AppleWatch_RemoteSounds";
+			};
+			name = Debug;
+		};
+		8B2C64461B0DACB70061F8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppleWatch_RemoteSoundsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleWatch_RemoteSounds.app/AppleWatch_RemoteSounds";
+			};
+			name = Release;
+		};
+		8B2C64661B0DAE600061F8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = AppleWatch_RemoteSounds_WatchKit_Extension;
+				INFOPLIST_FILE = "AppleWatch_RemoteSounds WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		8B2C64671B0DAE600061F8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = AppleWatch_RemoteSounds_WatchKit_Extension;
+				INFOPLIST_FILE = "AppleWatch_RemoteSounds WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		8B2C64691B0DAE600061F8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AppleWatch_RemoteSounds WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B2C646A1B0DAE600061F8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AppleWatch_RemoteSounds WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B2C64191B0DACB70061F8CC /* Build configuration list for PBXProject "AppleWatch_RemoteSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2C643F1B0DACB70061F8CC /* Debug */,
+				8B2C64401B0DACB70061F8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2C64411B0DACB70061F8CC /* Build configuration list for PBXNativeTarget "AppleWatch_RemoteSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2C64421B0DACB70061F8CC /* Debug */,
+				8B2C64431B0DACB70061F8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B2C64441B0DACB70061F8CC /* Build configuration list for PBXNativeTarget "AppleWatch_RemoteSoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2C64451B0DACB70061F8CC /* Debug */,
+				8B2C64461B0DACB70061F8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B2C64651B0DAE600061F8CC /* Build configuration list for PBXNativeTarget "AppleWatch_RemoteSounds WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2C64661B0DAE600061F8CC /* Debug */,
+				8B2C64671B0DAE600061F8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B2C64681B0DAE600061F8CC /* Build configuration list for PBXNativeTarget "AppleWatch_RemoteSounds WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2C64691B0DAE600061F8CC /* Debug */,
+				8B2C646A1B0DAE600061F8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B2C64161B0DACB70061F8CC /* Project object */;
+}
